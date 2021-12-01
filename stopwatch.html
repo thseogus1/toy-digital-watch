@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>시계</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="watch.js"></script>
+    
+    </head>
+<body>
+    <a href="time.html">타이머</a>
+    <a href="stopwatch.html">스톱워치</a>
+    <a href="main.html">현재시간</a>
+
+    <div id ="ViewTimer" class="ViewTimer" >
+        00:00:00.00
+    </div>
+    
+    <div>
+        <button onclick="start()" id="startBtn">시작</button>
+        <button onclick="stop()" id="stopBtn">중지</button>
+        <button onclick="list()" id="listBtn">기록</button>
+        <button onclick="reset()" id="resetBtn">초기화</button>
+    </div>
+    <div>
+      <ul id="list" class="list">
+
+      </ul>
+    </div>
+</body>
+</html>

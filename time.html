@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>시계</title>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    <script src="time.js"></script>
     
     </head>
 <body>
     <a href="time.html">타이머</a>
     <a href="stopwatch.html">스톱워치</a>
     <a href="main.html">현재시간</a>
-    <div id="time" class="time"></div>
-    <div id="date" class="date"></div>
-    
-    
-    
+
+    <div id="ViewTimer" class="ViewTimer">00:00:00.00</div>
+  
+    <button onclick="start()" id="startBtn">시작</button>
+    <button onclick="stop()" id="stopBtn">중지</button>
+    <br>
+    <input id="time" placeholder="초를 입력해주세요.(입력 후 시작)" size=35> 
+     
+
 </body>
 </html>
